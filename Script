@@ -1,0 +1,19 @@
+Experimental description:
+
+[] javac Main.java
+
+[] Parameter search via the validation data (27 combinations)
+alpha_w = alpha_v = beta_v = beta_eta \in {0.001, 0.01, 0.1}
+T \in {100, 500, 1000}
+L \in {1, 2, 3}
+
+java Main -fnTrainData ./ml-100k/train_5.csv -fnTestData ./ml-100k/valid_5.csv -n 943 -m 1349 -alpha_w 0.001 -alpha_v 0.001 -beta_v 0.001 -beta_eta 0.001 -L 3 -gamma 0.01 -T 500 -topK 20 -d 20 >ml-100k_train.txt
+
+...
+
+[] Performance evaluation on the test data
+alpha_w = alpha_v = beta_v = beta_eta = 0.001
+T = 500
+L = 3
+
+java Main -fnTrainData ./ml-100k/train_5.csv -fnTestData ./ml-100k/test_5.csv -n 943 -m 1349 -alpha_w 0.001 -alpha_v 0.001 -beta_v 0.001 -beta_eta 0.001 -L 3 -gamma 0.01 -T 500 -topK 20 -d 20 >ml-100k_test.txt

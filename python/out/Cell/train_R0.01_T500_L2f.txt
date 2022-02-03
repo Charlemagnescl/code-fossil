@@ -1,0 +1,29 @@
+[-fnTrainData, ./Data-S-FMSM/Data-S-FMSM/Amazon-TXT-FORMAT/Celltrain_5.csv, -fnTestData, ./Data-S-FMSM/Data-S-FMSM/Amazon-TXT-FORMAT/Cellvalid_5.csv, -n, 67453, -m, 17969, -alpha_w, 0.01, -alpha_v, 0.01, -beta_v, 0.01, -beta_eta, 0.01, -L, 2, -gamma, 0.01, -T, 500, -topK, 20, -d, 20]
+fnTrainData: ./Data-S-FMSM/Data-S-FMSM/Amazon-TXT-FORMAT/Celltrain_5.csv
+fnTestData: ./Data-S-FMSM/Data-S-FMSM/Amazon-TXT-FORMAT/Cellvalid_5.csv
+n: 67453
+m: 17969
+gamma: 0.01
+d: 20
+alpha_w: 0.01
+alpha_v: 0.01
+beta_eta: 0.01
+beta_v: 0.01
+T: 500
+topK: 20
+L: 2
+alpha: 0.5
+The global average rating:1.0863214E-4
+Iter:100| 
+Prec@20:0.004734714
+Rec@20:0.06777467
+F1@20:0.008674825
+NDCG@20:0.031195555
+1-call@20:0.088342324
+Iter:500| 
+Prec@20:0.004884414
+Rec@20:0.07092255
+F1@20:0.008965217
+NDCG@20:0.032688152
+1-call@20:0.0913361
+Time consuming: 357s

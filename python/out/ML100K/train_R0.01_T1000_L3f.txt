@@ -1,0 +1,34 @@
+[-fnTrainData, ./Data-S-FMSM/Data-S-FMSM/ML100K-TXT-FORMAT/train_5.csv, -fnTestData, ./Data-S-FMSM/Data-S-FMSM/ML100K-TXT-FORMAT/valid_5.csv, -n, 943, -m, 1349, -alpha_w, 0.01, -alpha_v, 0.01, -beta_v, 0.01, -beta_eta, 0.01, -L, 3, -gamma, 0.01, -T, 1000, -topK, 20, -d, 20]
+fnTrainData: ./Data-S-FMSM/Data-S-FMSM/ML100K-TXT-FORMAT/train_5.csv
+fnTestData: ./Data-S-FMSM/Data-S-FMSM/ML100K-TXT-FORMAT/valid_5.csv
+n: 943
+m: 1349
+gamma: 0.01
+d: 20
+alpha_w: 0.01
+alpha_v: 0.01
+beta_eta: 0.01
+beta_v: 0.01
+T: 1000
+topK: 20
+L: 3
+alpha: 0.5
+The global average rating:0.074816816
+Iter:100| 
+Prec@20:0.024602314
+Rec@20:0.2315529
+F1@20:0.04215964
+NDCG@20:0.10647124
+1-call@20:0.35630965
+Iter:500| 
+Prec@20:0.029904502
+Rec@20:0.27620682
+F1@20:0.051177803
+NDCG@20:0.12987357
+1-call@20:0.40296924
+Iter:1000| 
+Prec@20:0.02937429
+Rec@20:0.27443945
+F1@20:0.050317302
+NDCG@20:0.13319074
+1-call@20:0.39554614
